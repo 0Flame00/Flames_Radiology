@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "F": {
+      "item": "flames_radiology:fabric"
+    },
+    "G": {
+      "item": "flames_radiology:gas_filter"
+    },
+    "H": {
+      "item": "minecraft:leather_helmet"
+    },
+    "L": {
+      "item": "flames_radiology:lead_ingot"
+    }
+  },
+  "pattern": [
+    "FFF",
+    "FHF",
+    "GLG"
+  ],
+  "result": {
+    "count": 1,
+    "id": "flames_radiology:hazmat_helmet"
+  }
+}

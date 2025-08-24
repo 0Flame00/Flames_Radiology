@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "flamesradiology:item/activated_carbon"
+    "layer0": "flames_radiology:item/activated_carbon"
   }
 }

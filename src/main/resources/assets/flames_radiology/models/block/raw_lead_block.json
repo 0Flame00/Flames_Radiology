@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/cube_all",
   "textures": {
-    "all": "flamesradiology:block/raw_lead_block"
+    "all": "flames_radiology:block/raw_lead_block"
   }
 }

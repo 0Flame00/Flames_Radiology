@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "flamesradiology:block/lead_ore"
+      "model": "flames_radiology:block/lead_ore"
     }
   }
 }

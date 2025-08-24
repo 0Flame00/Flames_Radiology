@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "flames_radiology:boron_ingot"
+    },
+    "G": {
+      "item": "flames_radiology:glass_tube"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "pattern": [
+    "IGI",
+    "RBR",
+    "III"
+  ],
+  "result": {
+    "count": 1,
+    "id": "flames_radiology:geiger_counter"
+  }
+}

@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "flamesradiology:block/poly_halite_ore"
+      "model": "flames_radiology:block/poly_halite_ore"
     }
   }
 }

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "H": {
+      "item": "minecraft:leather_boots"
+    },
+    "L": {
+      "item": "flames_radiology:lead_ingot"
+    },
+    "R": {
+      "item": "flames_radiology:rubber"
+    }
+  },
+  "pattern": [
+    "RLR",
+    "RHR",
+    "RLR"
+  ],
+  "result": {
+    "count": 1,
+    "id": "flames_radiology:hazmat_boots"
+  }
+}

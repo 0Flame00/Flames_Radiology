@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "F": {
+      "item": "flames_radiology:fabric"
+    },
+    "H": {
+      "item": "minecraft:leather_leggings"
+    },
+    "L": {
+      "item": "flames_radiology:lead_ingot"
+    },
+    "R": {
+      "item": "flames_radiology:rubber"
+    }
+  },
+  "pattern": [
+    "FLF",
+    "FHF",
+    "R R"
+  ],
+  "result": {
+    "count": 1,
+    "id": "flames_radiology:hazmat_leggings"
+  }
+}

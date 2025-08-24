@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/cube_all",
   "textures": {
-    "all": "flamesradiology:block/boron_ore"
+    "all": "flames_radiology:block/boron_ore"
   }
 }

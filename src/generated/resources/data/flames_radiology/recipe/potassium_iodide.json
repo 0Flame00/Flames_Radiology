@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "I": {
+      "item": "flames_radiology:iodine"
+    },
+    "W": {
+      "item": "minecraft:potion"
+    }
+  },
+  "pattern": [
+    " W ",
+    "WIW",
+    " W "
+  ],
+  "result": {
+    "count": 1,
+    "id": "flames_radiology:potassium_iodide"
+  }
+}

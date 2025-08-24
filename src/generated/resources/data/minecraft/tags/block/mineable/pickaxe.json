@@ -1,0 +1,15 @@
+{
+  "values": [
+    "flames_radiology:boron_block",
+    "flames_radiology:lead_block",
+    "flames_radiology:raw_boron_block",
+    "flames_radiology:raw_lead_block",
+    "flames_radiology:raw_poly_halite_block",
+    "flames_radiology:boron_ore",
+    "flames_radiology:lead_ore",
+    "flames_radiology:poly_halite_ore",
+    "flames_radiology:deepslate_boron_ore",
+    "flames_radiology:deepslate_lead_ore",
+    "flames_radiology:deepslate_poly_halite_ore"
+  ]
+}
