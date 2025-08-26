@@ -44,6 +44,7 @@ public class ModBlockTagProvider extends BlockTagsProvider {
             .add(ModBlocks.DEEPSLATE_BORON_ORE.get())
             .add(ModBlocks.DEEPSLATE_LEAD_ORE.get())
             .add(ModBlocks.DEEPSLATE_POLY_HALITE_ORE.get());
+<<<<<<< HEAD
             
         // Contaminated blocks are mineable with shovel
         this.tag(BlockTags.MINEABLE_WITH_SHOVEL)
@@ -56,5 +57,7 @@ public class ModBlockTagProvider extends BlockTagsProvider {
             .add(ModBlocks.DEAD_WOOD.get())
             .add(ModBlocks.STRIPPED_DEAD_LOG.get())
             .add(ModBlocks.STRIPPED_DEAD_WOOD.get());
+=======
+>>>>>>> 3598fac37cb55863843246fb1d6a25e626ceaf45
     }
 }

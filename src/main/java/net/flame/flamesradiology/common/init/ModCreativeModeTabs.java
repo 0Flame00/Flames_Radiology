@@ -47,10 +47,13 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.NETHERITE_HAZMAT_CHESTPLATE.get());
                         output.accept(ModItems.NETHERITE_HAZMAT_LEGGINGS.get());
                         output.accept(ModItems.NETHERITE_HAZMAT_BOOTS.get());
+<<<<<<< HEAD
                         
                         // Fluid Items
                         output.accept(ModItems.CONTAMINATED_WATER_BUCKET.get());
                         
+=======
+>>>>>>> 3598fac37cb55863843246fb1d6a25e626ceaf45
                         // Add blocks if you have any
                         output.accept(ModBlocks.BORON_BLOCK.get());
                         output.accept(ModBlocks.LEAD_BLOCK.get());
@@ -63,6 +66,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.DEEPSLATE_BORON_ORE.get());
                         output.accept(ModBlocks.DEEPSLATE_LEAD_ORE.get());
                         output.accept(ModBlocks.DEEPSLATE_POLY_HALITE_ORE.get());
+<<<<<<< HEAD
                         
                         // Contaminated Blocks
                         output.accept(ModBlocks.WASTE_LAND_DIRT.get());
@@ -73,6 +77,8 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.DEAD_WOOD.get());
                         output.accept(ModBlocks.STRIPPED_DEAD_LOG.get());
                         output.accept(ModBlocks.STRIPPED_DEAD_WOOD.get());
+=======
+>>>>>>> 3598fac37cb55863843246fb1d6a25e626ceaf45
                     }).build());
 
     public static void register(IEventBus eventBus) {

@@ -37,11 +37,14 @@ public class FlamesRadiologyJEIInfoCatagory implements IRecipeCategory<FlamesRad
     }
     
     @Override
+<<<<<<< HEAD
     public IDrawable getBackground() {
         return background;
     }
     
     @Override
+=======
+>>>>>>> 3598fac37cb55863843246fb1d6a25e626ceaf45
     public IDrawable getIcon() {
         return icon;
     }

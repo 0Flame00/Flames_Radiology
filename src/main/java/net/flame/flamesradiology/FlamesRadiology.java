@@ -18,11 +18,16 @@ import net.flame.flamesradiology.common.init.ModBlocks;
 import net.flame.flamesradiology.common.init.ModCreativeModeTabs;
 import net.flame.flamesradiology.common.init.ModSounds;
 import net.flame.flamesradiology.common.init.ModEffects;
+<<<<<<< HEAD
 import net.flame.flamesradiology.common.init.ModFluids;
 import net.flame.flamesradiology.common.fluid.ModFluidTypes;
 import net.flame.flamesradiology.registry.RadioactiveSourceRegistry;
 import net.flame.flamesradiology.network.NetworkHandler;
 import net.flame.flamesradiology.common.event.AxeStrippingHandler;
+=======
+import net.flame.flamesradiology.registry.RadioactiveSourceRegistry;
+import net.flame.flamesradiology.network.NetworkHandler;
+>>>>>>> 3598fac37cb55863843246fb1d6a25e626ceaf45
 import net.minecraft.world.item.CreativeModeTabs;
 
 // The value here should match an entry in the META-INF/neoforge.mods.toml file
@@ -58,12 +63,15 @@ public class FlamesRadiology {
         
         // Register effects
         ModEffects.register(modEventBus);
+<<<<<<< HEAD
         
         // Register fluid types
         ModFluidTypes.register(modEventBus);
         
         // Register fluids
         ModFluids.register(modEventBus);
+=======
+>>>>>>> 3598fac37cb55863843246fb1d6a25e626ceaf45
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
@@ -78,10 +86,13 @@ public class FlamesRadiology {
     private void commonSetup(FMLCommonSetupEvent event) {
         // Initialize radioactive sources from popular mods
         RadioactiveSourceRegistry.initializeDefaultSources();
+<<<<<<< HEAD
         
         // Initialize axe stripping map
         AxeStrippingHandler.initStrippingMap();
         
+=======
+>>>>>>> 3598fac37cb55863843246fb1d6a25e626ceaf45
         LOGGER.info("Registered radioactive sources for Flames Radiology");
     }
 

@@ -1,13 +1,19 @@
 package net.flame.flamesradiology.common.init;
 
 import net.flame.flamesradiology.FlamesRadiology;
+<<<<<<< HEAD
 import net.flame.flamesradiology.common.block.ContaminatedWaterBlock;
+=======
+>>>>>>> 3598fac37cb55863843246fb1d6a25e626ceaf45
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
+<<<<<<< HEAD
 import net.minecraft.world.level.block.LiquidBlock;
 import net.minecraft.world.level.block.RotatedPillarBlock;
+=======
+>>>>>>> 3598fac37cb55863843246fb1d6a25e626ceaf45
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.neoforged.bus.api.IEventBus;
@@ -53,6 +59,7 @@ public class ModBlocks {
     public static final DeferredHolder<Block, Block> RAW_POLY_HALITE_BLOCK = registerBlock("raw_poly_halite_block",
             () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
 
+<<<<<<< HEAD
     // Contaminated Blocks
     public static final DeferredHolder<Block, Block> WASTE_LAND_DIRT = registerBlock("waste_land_dirt",
             () -> new Block(BlockBehaviour.Properties.of().strength(0.5f).sound(SoundType.GRAVEL)));
@@ -77,6 +84,8 @@ public class ModBlocks {
     public static final DeferredHolder<Block, LiquidBlock> CONTAMINATED_WATER_BLOCK = BLOCKS.register("contaminated_water_block",
             () -> new ContaminatedWaterBlock());
 
+=======
+>>>>>>> 3598fac37cb55863843246fb1d6a25e626ceaf45
     private static <T extends Block> DeferredHolder<Block, T> registerBlock(String name, Supplier<T> block){
         DeferredHolder<Block, T> toReturn = BLOCKS.register(name, block);
         registeBlockItem(name, toReturn);

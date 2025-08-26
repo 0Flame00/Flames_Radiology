@@ -10,7 +10,10 @@ import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.phys.AABB;
+<<<<<<< HEAD
 import net.minecraft.world.phys.Vec3;
+=======
+>>>>>>> 3598fac37cb55863843246fb1d6a25e626ceaf45
 
 import java.util.ArrayList;
 import java.util.List;
@@ -31,6 +34,7 @@ public class RadiationManager {
     public static double calculateRadiationAt(Level level, BlockPos position) {
         List<RadiationSource> sources = findRadiationSources(level, position, MAX_SCAN_RADIUS);
         double totalRadiation = 0.0;
+<<<<<<< HEAD
         Vec3 playerPos = Vec3.atCenterOf(position);
         
         for (RadiationSource source : sources) {
@@ -39,6 +43,11 @@ public class RadiationManager {
             double shieldedRadiation = LeadShielding.calculateShieldedRadiation(
                 level, source.getPosition(), playerPos, sourceRadiation);
             totalRadiation += shieldedRadiation;
+=======
+        
+        for (RadiationSource source : sources) {
+            totalRadiation += source.getRadiationAt(position);
+>>>>>>> 3598fac37cb55863843246fb1d6a25e626ceaf45
         }
         
         return totalRadiation;
@@ -142,13 +151,18 @@ public class RadiationManager {
     
     /**
      * Get total radiation level affecting a player
+<<<<<<< HEAD
      * Combines environmental and inventory radiation with lead shielding
+=======
+     * Combines environmental and inventory radiation
+>>>>>>> 3598fac37cb55863843246fb1d6a25e626ceaf45
      * @param level The world level
      * @param player The player
      * @return Total radiation level in mSv/t
      */
     public static double getTotalRadiation(Level level, Player player) {
         BlockPos playerPos = player.blockPosition();
+<<<<<<< HEAD
         Vec3 playerVec = player.position();
         
         // Environmental radiation with lead shielding
@@ -164,6 +178,13 @@ public class RadiationManager {
         }
         
         // Inventory radiation (not affected by lead shielding since it's carried)
+=======
+        
+        // Environmental radiation
+        double environmentalRadiation = calculateRadiationAt(level, playerPos);
+        
+        // Inventory radiation
+>>>>>>> 3598fac37cb55863843246fb1d6a25e626ceaf45
         double inventoryRadiation = calculateInventoryRadiation(player);
         
         // Combine with different weights

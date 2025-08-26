@@ -39,6 +39,7 @@
   "effect.flames_radiology.radiation_sickness": "Radiation Sickness",
   "effect.flames_radiology.radiation_poisoning": "Radiation Poisoning",
   "effect.flames_radiology.acute_radiation_syndrome": "Acute Radiation Syndrome",
+<<<<<<< HEAD
   "jei.flames_radiology.radiation_info": "Radiation Information",
   "block.flames_radiology.contaminated_water_block": "Contaminated Water",
   "item.flames_radiology.contaminated_water_bucket": "Contaminated Water Bucket",
@@ -49,4 +50,7 @@
   "block.flames_radiology.dead_wood": "Dead Wood",
   "block.flames_radiology.stripped_dead_log": "Stripped Dead Log",
   "block.flames_radiology.stripped_dead_wood": "Stripped Dead Wood"
+=======
+  "jei.flames_radiology.radiation_info": "Radiation Information"
+>>>>>>> 3598fac37cb55863843246fb1d6a25e626ceaf45
 }
