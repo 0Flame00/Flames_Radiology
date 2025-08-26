@@ -51,13 +51,9 @@ public class RadiationOverlay implements LayeredDraw.Layer {
         double backgroundRadiation = cachedBackgroundRadiation;
         
         // Total environmental radiation = background + detected environmental radiation
-<<<<<<< HEAD
         // Ensure background radiation never exceeds the maximum limit
         double clampedBackgroundRadiation = Math.min(backgroundRadiation, BACKGROUND_RADIATION_MAX);
         double totalEnvironmentalRadiation = clampedBackgroundRadiation + currentEnvironmentalRadiation;
-=======
-        double totalEnvironmentalRadiation = backgroundRadiation + currentEnvironmentalRadiation;
->>>>>>> 3598fac37cb55863843246fb1d6a25e626ceaf45
         double totalRadiation = totalEnvironmentalRadiation + currentInventoryRadiation;
         
         // Check radiation protection status
