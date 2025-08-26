@@ -53,7 +53,6 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
             block -> createOreDrop(ModBlocks.POLY_HALITE_ORE.get(), ModItems.POTASSIUM.get(), enchantmentLookup));
         this.add(ModBlocks.DEEPSLATE_POLY_HALITE_ORE.get(),
             block -> createOreDrop(ModBlocks.DEEPSLATE_POLY_HALITE_ORE.get(), ModItems.POTASSIUM.get(), enchantmentLookup));
-<<<<<<< HEAD
             
         // Contaminated blocks (mineable with shovel)
         this.dropSelf(ModBlocks.WASTE_LAND_DIRT.get());
@@ -64,8 +63,6 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
         this.dropSelf(ModBlocks.DEAD_WOOD.get());
         this.dropSelf(ModBlocks.STRIPPED_DEAD_LOG.get());
         this.dropSelf(ModBlocks.STRIPPED_DEAD_WOOD.get());
-=======
->>>>>>> 3598fac37cb55863843246fb1d6a25e626ceaf45
     }
 
     protected LootTable.Builder createOreDrop(Block block, Item item, HolderLookup.RegistryLookup<Enchantment> enchantmentLookup) {

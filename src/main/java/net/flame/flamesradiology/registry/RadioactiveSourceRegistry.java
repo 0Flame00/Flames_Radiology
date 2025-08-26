@@ -1,11 +1,8 @@
 package net.flame.flamesradiology.registry;
 
 import net.flame.flamesradiology.FlamesRadiology;
-<<<<<<< HEAD
 import net.flame.flamesradiology.common.init.ModBlocks;
 import net.flame.flamesradiology.common.init.ModItems;
-=======
->>>>>>> 3598fac37cb55863843246fb1d6a25e626ceaf45
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.Item;
@@ -242,10 +239,7 @@ public class RadioactiveSourceRegistry {
      * Initialize default radioactive sources from popular mods
      */
     public static void initializeDefaultSources() {
-<<<<<<< HEAD
         registerFlamesRadiologySources();
-=======
->>>>>>> 3598fac37cb55863843246fb1d6a25e626ceaf45
         registerMekanismSources();
         registerImmersiveEngineeringSources();
         registerPowahSources();
@@ -254,7 +248,6 @@ public class RadioactiveSourceRegistry {
         registerIC2Sources();
     }
     
-<<<<<<< HEAD
     private static void registerFlamesRadiologySources() {
         // Flames Radiology mod's own radioactive materials
         // Register contaminated water block directly for reliable detection
@@ -275,9 +268,6 @@ public class RadioactiveSourceRegistry {
         registerRadioactiveSourceByName("flames_radiology:waste_land_dirt", 0.05);
         registerRadioactiveSourceByName("flames_radiology:contaminated_grass_block", 0.05);
     }
-    
-=======
->>>>>>> 3598fac37cb55863843246fb1d6a25e626ceaf45
     private static void registerMekanismSources() {
         // Mekanism radioactive materials
         registerRadioactiveSourceByName("mekanism:uranium_ore", 0.8);

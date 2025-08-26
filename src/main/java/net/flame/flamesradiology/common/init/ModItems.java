@@ -79,13 +79,9 @@ public class ModItems {
     public static final DeferredHolder<Item, ArmorItem> NETHERITE_HAZMAT_BOOTS = ITEMS.register("netherite_hazmat_boots",
         () -> new ArmorItem(ModArmorMaterials.NETHERITE_HAZMAT, ArmorItem.Type.BOOTS, new Item.Properties()));
 
-<<<<<<< HEAD
     // Fluid Items
     public static final DeferredHolder<Item, Item> CONTAMINATED_WATER_BUCKET = ITEMS.register("contaminated_water_bucket",
         () -> new net.minecraft.world.item.BucketItem(ModFluids.CONTAMINATED_WATER_SOURCE.get(), new Item.Properties().stacksTo(1)));
-
-=======
->>>>>>> 3598fac37cb55863843246fb1d6a25e626ceaf45
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }
