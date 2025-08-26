@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "flames_radiology:activated_carbon"
+    },
+    "F": {
+      "item": "flames_radiology:fabric"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "pattern": [
+    "FIF",
+    "IAI",
+    "FIF"
+  ],
+  "result": {
+    "count": 1,
+    "id": "flames_radiology:gas_filter"
+  }
+}

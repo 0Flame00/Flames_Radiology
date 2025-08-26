@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "flamesradiology:item/boron_ingot"
+    "layer0": "flames_radiology:item/boron_ingot"
   }
 }

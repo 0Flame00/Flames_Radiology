@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/cube_all",
   "textures": {
-    "all": "flamesradiology:block/deepslate_boron_ore"
+    "all": "flames_radiology:block/deepslate_boron_ore"
   }
 }

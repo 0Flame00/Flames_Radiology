@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "flamesradiology:block/deepslate_lead_ore"
+      "model": "flames_radiology:block/deepslate_lead_ore"
     }
   }
 }

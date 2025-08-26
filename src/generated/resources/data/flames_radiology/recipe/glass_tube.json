@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "G": {
+      "item": "minecraft:glass"
+    }
+  },
+  "pattern": [
+    "GGG"
+  ],
+  "result": {
+    "count": 1,
+    "id": "flames_radiology:glass_tube"
+  }
+}

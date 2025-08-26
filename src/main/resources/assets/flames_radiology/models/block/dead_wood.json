@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "flames_radiology:block/daed_tree_log"
+  }
+}

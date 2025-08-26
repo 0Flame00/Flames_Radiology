@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "flamesradiology:block/boron_block"
+      "model": "flames_radiology:block/boron_block"
     }
   }
 }

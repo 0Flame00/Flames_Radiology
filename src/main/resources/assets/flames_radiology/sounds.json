@@ -1,0 +1,32 @@
+{
+  "geiger_click_0": {
+    "sounds": [
+      "flames_radiology:geiger_click_0"
+    ]
+  },
+  "geiger_click_1": {
+    "sounds": [
+      "flames_radiology:geiger_click_1"
+    ]
+  },
+  "geiger_click_2": {
+    "sounds": [
+      "flames_radiology:geiger_click_2"
+    ]
+  },
+  "geiger_click_3": {
+    "sounds": [
+      "flames_radiology:geiger_click_3"
+    ]
+  },
+  "geiger_click_4": {
+    "sounds": [
+      "flames_radiology:geiger_click_4"
+    ]
+  },
+  "geiger_click_5": {
+    "sounds": [
+      "flames_radiology:geiger_click_5"
+    ]
+  }
+}

@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "flamesradiology:item/lead_ingot"
+    "layer0": "flames_radiology:item/lead_ingot"
   }
 }

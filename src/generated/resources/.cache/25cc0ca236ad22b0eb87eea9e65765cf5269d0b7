@@ -1,0 +1,5 @@
+// 1.21.1	2025-08-26T13:28:34.6925283	Tags for minecraft:block mod id flames_radiology
+de93a05ee8d36ac1a414a3a89fc07378608f4a7a data/minecraft/tags/block/mineable/axe.json
+d85166e6556ebe289e89bb6fd890f02a568e7071 data/minecraft/tags/block/mineable/pickaxe.json
+25fac1a5bf6aa996dfd08d05cfb25748ad9d747f data/minecraft/tags/block/mineable/shovel.json
+d85166e6556ebe289e89bb6fd890f02a568e7071 data/minecraft/tags/block/needs_iron_tool.json

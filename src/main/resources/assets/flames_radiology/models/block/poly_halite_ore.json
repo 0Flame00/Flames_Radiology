@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/cube_all",
   "textures": {
-    "all": "flamesradiology:block/poly_halite_ore"
+    "all": "flames_radiology:block/poly_halite_ore"
   }
 }

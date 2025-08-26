@@ -1,6 +1,9 @@
 package net.flame.flamesradiology;
 
+import net.flame.flamesradiology.common.init.ModFluids;
 import net.minecraft.client.Minecraft;
+import net.minecraft.client.renderer.ItemBlockRenderTypes;
+import net.minecraft.client.renderer.RenderType;
 import net.neoforged.api.distmarker.Dist;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.fml.ModContainer;
@@ -27,5 +30,11 @@ public class FlamesRadiologyClient {
         // Some client setup code
         FlamesRadiology.LOGGER.info("HELLO FROM CLIENT SETUP");
         FlamesRadiology.LOGGER.info("MINECRAFT NAME >> {}", Minecraft.getInstance().getUser().getName());
+        
+        // Register fluid render layers for transparency
+        event.enqueueWork(() -> {
+            ItemBlockRenderTypes.setRenderLayer(ModFluids.CONTAMINATED_WATER_SOURCE.get(), RenderType.translucent());
+            ItemBlockRenderTypes.setRenderLayer(ModFluids.CONTAMINATED_WATER_FLOWING.get(), RenderType.translucent());
+        });
     }
 }

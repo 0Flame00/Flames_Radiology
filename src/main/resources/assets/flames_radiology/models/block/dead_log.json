@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "flames_radiology:block/daed_tree_log_top",
+    "side": "flames_radiology:block/daed_tree_log"
+  }
+}

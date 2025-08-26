@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "flamesradiology:item/gas_filter"
+    "layer0": "flames_radiology:item/gas_filter"
   }
 }

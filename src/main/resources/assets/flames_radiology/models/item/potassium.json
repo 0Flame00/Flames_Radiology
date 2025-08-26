@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "flamesradiology:item/potassium"
+    "layer0": "flames_radiology:item/potassium"
   }
 }

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "bottom": "flames_radiology:block/waste_land_dirt",
+    "top": "flames_radiology:block/contaminated_grass_top",
+    "side": "flames_radiology:block/contaminated_grass_side"
+  }
+}

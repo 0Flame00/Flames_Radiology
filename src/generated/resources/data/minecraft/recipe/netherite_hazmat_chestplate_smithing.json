@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "minecraft:netherite_ingot"
+  },
+  "base": {
+    "item": "flames_radiology:hazmat_chestplate"
+  },
+  "result": {
+    "count": 1,
+    "id": "flames_radiology:netherite_hazmat_chestplate"
+  },
+  "template": {
+    "item": "minecraft:netherite_upgrade_smithing_template"
+  }
+}
